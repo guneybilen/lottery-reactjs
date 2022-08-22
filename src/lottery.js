@@ -53,15 +53,22 @@ const address = '0x00d86142fB94d3E97D57404a31038711310c4629';
 const abi = [
   {
     inputs: [],
-    stateMutability: 'nonpayable',
-    type: 'constructor',
-  },
-  {
-    inputs: [],
     name: 'enter',
     outputs: [],
     stateMutability: 'payable',
     type: 'function',
+  },
+  {
+    inputs: [],
+    name: 'pickWinner',
+    outputs: [],
+    stateMutability: 'nonpayable',
+    type: 'function',
+  },
+  {
+    inputs: [],
+    stateMutability: 'nonpayable',
+    type: 'constructor',
   },
   {
     inputs: [],
@@ -87,13 +94,6 @@ const abi = [
       },
     ],
     stateMutability: 'view',
-    type: 'function',
-  },
-  {
-    inputs: [],
-    name: 'pickWinner',
-    outputs: [],
-    stateMutability: 'nonpayable',
     type: 'function',
   },
   {
